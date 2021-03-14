@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+  <!--
+HTML
+Trabajo final del segundo trimestres
+Autor: Sergio Martínez Félix
+fecha: Segundo trimestre curso 2020/2021
+-->
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Trabajot2</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link href="estiloweb.css" rel="stylesheet" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="marco">
+      <div class="encabezado">
+        <nav>
+          <ul>
+            <li><a onclick="clickCounter()" href="index.html">Inicio</a></li>
+            <li>
+              <a href="Actualidad.html" onclick="clickCounter()">Actualidad</a>
+            </li>
+            <li>
+              <a href="#Blog" onclick="clickCounter()">Blog</a>
+            </li>
+            <li>
+              <a href="#Tendencias" onclick="clickCounter()">Tendencias</a>
+            </li>
+            <li>
+              <a href="#Contactar" onclick="clickCounter()">Contactar</a>
+            </li>
+          </ul>
+        </nav>
+        <div id="nVeces"></div>
+        <script></script>
+		
+      </div>
+      <div class="migas">
+        <b> Indice </b>
+      </div>
+      <div class="lado">
+        
+        <div class="menuvertical">
+          <a href="index.html">Inicio</a>
+          <a href="Actualidad.html">Actualidad</a>
+          <a href="#">Blog</a>
+          <a href="#">Tendencias</a>
+          <a href="#">Contactar</a>
+        </div>
+      </div>
+
+      <div class="contenido">
+        
+        <div class="container">
+          <div class="card">
+		    <img style="border: 1px solid; color: black;" src="currando.jpg" alt="" width="300" height="300" />         
+            <h4><b>Sergio Martínez Félix:</b></h4>
+            <p><b>Desarrollo de Aplicaciones Multiplataforma</b></p>
+            <h4><b>Cenec Málaga</b></h4>
+           
+           
+          </div>
+
+          <div class="card">
+            <img src="sobremi.png" />
+            
+            <p>
+              <b
+                >Trás una larga trayectoria profesional en otros sectores, decidí matrícularme en DAM porque me apasionan las nuevas tecnologías</b
+              >
+            </p>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="pie">
+        <center>
+          <div>
+            &copy;
+            <b
+              >2021
+              <a href="#" target="_blank"></a
+              > Para más información, no duden en contactarme a través de mi correo personal sergiomartinezfelix@gmail.com</b
+            >
+          </div>
+        </center>
+      </div>
+    </div>
+    <script src="scriptweb.js"></script>
+  </body>
+</html>
